@@ -1,0 +1,18 @@
+import requests
+
+api_key = "f9fa0f212366e50a850082830986dc0e"
+city = input("Enter city: ")
+
+url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+response = requests.get(url)
+
+print("status:", response.status_code)
+weather = response.json()
+print(weather)
+
+if response.status_code == 200:
+    print("Temperature:", weather["main"]["temp"])
+    print("Humidity:", weather["main"]["humidity"])
+    print("Wind Speed:", weather["wind"]["speed"])
+else:
+    print("Error:", weather["message"])
