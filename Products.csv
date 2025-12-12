@@ -1,0 +1,9 @@
+ProductID,ProductName,Category,Price,Quantity
+1,UltraWidget,Electronics,699.99,10
+2,BasicWidget,Electronics,199.50,25
+3,ProGadget,Tools,549.00,5
+4,GardenSpade,Garden,49.95,50
+5,DeluxeDrill,Tools,799.00,7
+6,KitchenSet,Home,299.99,12
+7,PremiumPhone,Electronics,999.00,3
+8,CheapPen,Office,2.50,200

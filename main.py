@@ -1,4 +1,4 @@
-import arithmatic as am
+import arithmatic as am3
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 print("Sum is:", am.add(a, b))
